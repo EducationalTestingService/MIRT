@@ -1,0 +1,21 @@
+&runtitle title='Listening_Test:3PL_Model:Fixed_guesing' /
+&numberunits /
+&files filename='listeninggf.csv' /
+&units /
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec /
+&dimension /
+&quadsize /
+
+&allfactorspecs factor_specs=.TRUE./
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs num_choices=4 fixguess=.TRUE. guessing=.TRUE./
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  /

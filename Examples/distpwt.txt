@@ -1,0 +1,102 @@
+&runtitle title='Distractor:pvalues' /
+&numberunits count=2/
+&files filename='dist1.csv'/
+&files filename='distpwtdist.csv'/
+&units unitpwtdist=11 /
+&dataspec nitems=76 filename='dist.dat' distract=.TRUE. useid=.TRUE.
+fileformat='(a5,x,76i1,76i4)'  /
+&paramspec nr=F/
+&dimension dimlatin=2 dimlatout=2 /
+&quadsize /
+&allfactorspecs factor_specs=.TRUE. /
+&factorspecs factor_name='Listening' /
+&factorspecs factor_name='Reading' /
+&allskillspecs  /
+&allitemspecs  item_specs=.TRUE. num_choices=5/
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 num_choices=8/
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 num_choices=7/
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 num_choices=12/
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 num_choices=13/
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 num_choices=7/
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3 num_choices=39/
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3 num_choices=36/
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3 num_choices=42/
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printpwtdist=T/
+&eapoutput eap_mask=62*T 14*F /
+&numberweightsdist numweightsdist=1 /
+&readweightdist weightnamedist='Last'   weightdist=397*0 
+1 4*0 1 4*0 1 4*0 1 4*0 1 4*0 1 4*0
+1 4*0 1 4*0 1 4*0 1 4*0 1 4*0 1 4*0 1 4*0 1 41*0 /

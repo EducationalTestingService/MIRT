@@ -1,0 +1,32 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits count=2/
+&files filename='listening16.csv' /
+&files filename='listeningmlt.csv' /
+&units unitml=11 / 
+&dataspec nitems=34 filename='FORM1ANOX.TXT' 
+fileformat='(21x,34i1)' /
+&paramspec /
+&dimension   /
+&quadsize /
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printml=T  /
+&eapoutput  dimtrans=1 /
+&transformation transnames='ListeningT' components=3 /
+&transcomp degree=0 ubmask=T ub=-4.0 /
+&transcomp degree=1 lbmask=T ubmask=T lb=-4.0 ub=4.0 /
+&transcomp degree=0 lbmask=T lb=4.0 /
+&polynomial coefficients=-4.0 /
+&polynomial coefficients=0.0 1.0 /
+&polynomial coefficients=4.0 /
+
+
+ 

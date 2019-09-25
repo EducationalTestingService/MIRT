@@ -1,0 +1,23 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits count=2/
+&files filename='listeningp1.csv' /
+&files filename='listeningparamcovp.csv'/
+&units unitparamcov_complex=11/
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1,T4,i2)' usepsu=.TRUE./
+&paramspec /
+&dimension /
+&quadsize /
+
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  printparamcov_complex=T/
+

@@ -1,0 +1,21 @@
+&runtitle title='Listening_Test:3PL_Model' /
+&numberunits /
+&files filename='listeninggg30b.csv' /
+&units /
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec twostages=F  tol=0.000000001 maxit=200 tolc=0.000001/
+&dimension /
+&quadsize dimsize=30/
+
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs guessing=.TRUE. constguess=.FALSE./
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  /

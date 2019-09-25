@@ -1,0 +1,36 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits count=10/
+&files filename='listening1.csv' /
+&files filename='listeningeap.csv' /
+&files filename='listeningcov.csv' /
+&files filename='listeningpost.csv' /
+&files filename='listeninggrads.csv' /
+&files filename='listeningmap.csv' /
+&files filename='listeningmarg.csv' /
+&files filename='listeningmarg2.csv' /
+&files filename='listeningmargwtsum.csv' /
+&files filename='listeningeapwt.csv' /
+&units uniteap=11 unitparamcov=12 unitpost=13 unitgrad=14 unitmp=15 unitmargin=16 unitmargin2=17 unitmarginwtsum=18
+uniteapwt=19/ 
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+fileformat='(21x,34i1)' /
+&paramspec /
+&dimension   /
+&quadsize /
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printeap=T printeapwt=T printparamcov=T printpost=T printrel=T printrelwt=T printgrad=T printmp=T printmargin=T 
+ printmarginres=T printmargin2=T printmargin2res=T printmarginwtsum=T printmarginwtsumres=T /
+&eapoutput dimwtsum=1/
+&weightedsum weight_name='Listening_sum'/
+&numberweights numweights=1 /
+&readweight weightname='Listening_sum' /
+

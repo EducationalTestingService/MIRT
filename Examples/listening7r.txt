@@ -1,0 +1,22 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits count=2/
+&files filename='listening7r.csv' /
+&files filename='listeningrtheta.csv' /
+&units unitthetaitem=11/ 
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+fileformat='(21x,34i1)' /
+&paramspec /
+&dimension   /
+&quadsize /
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs rasch_model=T/
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printthetaitemres=T /
+

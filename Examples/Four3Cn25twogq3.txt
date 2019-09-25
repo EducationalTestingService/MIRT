@@ -1,0 +1,138 @@
+&runtitle title='2PL:Four_Skills:Two_dimensions:Normal:Five_points_per_dimension:Two_ groups' /
+
+&numberunits count=2/
+
+&files filename='Four3Cn25twogq3.csv'/
+&files filename='Four3Cn25twogq3eap.csv'/
+&units uniteap=11/
+
+&dataspec nitems=83 npred=2 filename='form3cg.txt' 
+fileformat='(21x,34i1,1x,41i1,2x,6i1,1x,2i2,f2.0)' recode=.TRUE./
+
+&numberrecodes numbercodes=75*0 6*4 2*0 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&paramspec twostages=F/
+
+&dimension dimlatin=2 dimlatout=2/
+
+&quadsize /
+&allfactorspecs factor_specs=.TRUE. fixquad=.FALSE./
+&factorspecs factor_name='RLW'  /
+&factorspecs factor_name='Speaking' /
+&allskillspecs /
+
+&allitemspecs  item_specs=.TRUE. /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 num_cat_obs=3/
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 num_cat_obs=4/
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 num_cat_obs=3/
+&itemspecs skill_num=2 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=2 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=2 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=2 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=2 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=2 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=1 int_dim=2 num_cat_obs=10  special_item_int=.TRUE./
+&itemspecs skill_num=1 int_dim=2 num_cat_obs=10  special_item_int=.TRUE./
+
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-9 -7 -5 -3 -1 1 3 5 7 9 6 2 -1 -3 -4 -4 -3 -1 2 6 /
+&intspecs int_array=-9 -7 -5 -3 -1 1 3 5 7 9 6 2 -1 -3 -4 -4 -3 -1 2 6 /
+
+&predictorname pred_name='Constant' 'Group2'/
+
+&designparameters /
+
+&readgamma usegammafile=T gammafile='Four3Cn25twogq2.csv' skip=42/
+
+&inputinformation /
+
+&printprogress /
+
+&output printmeans=T printrel=T printeap=T/
+
+&meanprintspecs npredlist=2 /
+&predictors valuelabels='Group1' 'Group2' predvalues=1 0 1 1 /
+&eapoutput alt_beta(597)=0 alt_beta(598)=0 alt_beta(602)=0 alt_beta(603)=0 alt_beta(604)=0/
+

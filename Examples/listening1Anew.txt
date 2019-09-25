@@ -1,0 +1,35 @@
+&runtitle title="TOEFL Listening: Form 1: 2PL Model" /
+&numberunits count=9/
+&files filename="listening1A5.csv" /
+&files filename="listening1A5eap.csv" /
+&files filename="listening1A5cov.csv" /
+&files filename="listening1A5post.csv" /
+&files filename="listening1A5grads.csv" /
+&files filename="listening1A5map.csv" /
+&files filename="listening1A5marg.csv" /
+&files filename="listening1A5marg2.csv" /
+&files filename="listening1A5margwtsum.csv" /
+&units uniteap=11 unitparamcov=12 unitpost=13 unitgrad=14 unitmp=15 unitmargin=16 unitmargin2=17 unitmarginwtsum=18/ 
+&dataspec nitems=34 filename="form1anox.txt" 
+fileformat="(21x,34i1)" /
+&paramspec /
+&dimension   /
+&quadsize /
+&allfactorspecs /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printeap=T printparamcov=T printpost=T printrel=T printrelwt=T printgrad=T printmp=T printmargin=T 
+ printmarginres=T printmargin2=T printmargin2res=T printmarginwtsum=T printmarginwtsumres=T /
+&eapoutput dimwtsum=1/
+&weightedsum weight_name='Sum' weight_sum=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+ 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 
+ 0 1 0 1 0 1 0 1 0 1 0 1 0 1 /
+&numberweights numweights=1 /
+&readweight weightname="Listensum" weight=0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+ 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 
+ 0 1 0 1 0 1 0 1 0 1 0 1 0 1 /

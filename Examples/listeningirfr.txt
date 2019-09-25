@@ -1,0 +1,27 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits count=2/
+&files filename='listeningirr.csv' /
+&files filename='listeningirfr.csv' /
+&units unitirf=11 /
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec /
+&dimension /
+&quadsize /
+
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  printirfres=T/
+
+
+
+&irfspecs irfcount=7 /
+&irfpoints thetas=-1.5 -1 -0.5 0 0.5 1 1.5 /

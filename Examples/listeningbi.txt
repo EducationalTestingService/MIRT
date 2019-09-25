@@ -1,0 +1,74 @@
+&runtitle title='Listening_Test:2PL_Model:Testlets' /
+&numberunits /
+&files filename='listeningbi.csv' /
+&units /
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec nr=.FALSE. /
+&dimension dimlatin=7 dimlatout=6/
+&quadsize dimsize=3/
+
+&allfactorspecs  factor_specs=T independence=.TRUE. /
+
+&factorspecs factor_name='Listening' fix_diag=.FALSE. /
+
+&factorspecs factor_name='Set1' /
+&factorspecs factor_name='Set2' /
+&factorspecs factor_name='Set3' /
+&factorspecs factor_name='Set4' /
+
+&factorspecs factor_name='Set5' /
+&factorspecs factor_name='Set6' /
+
+&allskillspecs skill_specs=.TRUE./
+
+&skillspecs skill_name='Set1' /
+&skillspecs skill_name='Set2' /
+&skillspecs skill_name='Set3' /
+&skillspecs skill_name='Set4' /
+
+&skillspecs skill_name='Set5' /
+&skillspecs skill_name='Set6' /
+&allitemspecs item_specs=.TRUE./
+
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=3 /
+&itemspecs skill_num=3 /
+&itemspecs skill_num=3 /
+&itemspecs skill_num=3 /
+&itemspecs skill_num=3 /
+&itemspecs skill_num=3 /
+&itemspecs skill_num=4 /
+&itemspecs skill_num=4 /
+&itemspecs skill_num=4 /
+&itemspecs skill_num=4 /
+&itemspecs skill_num=4 /
+&itemspecs skill_num=5 /
+&itemspecs skill_num=5 /
+&itemspecs skill_num=5 /
+&itemspecs skill_num=5 /
+&itemspecs skill_num=5 /
+&itemspecs skill_num=5 /
+&itemspecs skill_num=6 /
+&itemspecs skill_num=6 /
+&itemspecs skill_num=6 /
+&itemspecs skill_num=6 /
+&itemspecs skill_num=6 /
+&itemspecs skill_num=6 /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  /
+

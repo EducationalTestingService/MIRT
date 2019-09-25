@@ -1,0 +1,141 @@
+&runtitle title='2PL:Four_Skills:Multinomial:Three_points_per_dimension' /
+
+&numberunits /
+
+&files filename="Four1Am81.csv"/
+
+&units /
+
+&dataspec nitems=84 filename='FORM1ANOX.TXT' 
+fileformat='(21x,34i1,1x,42i1,1x,6i1,1x,2i2)' /
+
+&numberrecodes numbercodes=76*0 6*4 2*9 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=2 1 3 2 4 3 5 4 6 5 7 6 8 7 9 8 10 9/
+&recodetable recode_tab=2 1 3 2 4 3 5 4 6 5 7 6 8 7 9 8 10 9/
+
+&paramspec /
+
+&dimension dimlatin=4 dimlatout=4 /
+
+&quadsize dimsize=3 normal=.FALSE. even=.TRUE. pspread=2.0 /
+&allfactorspecs factor_specs=.TRUE. /
+&factorspecs factor_name='Listening' /
+&factorspecs factor_name='Reading' /
+&factorspecs factor_name='Speaking' /
+&factorspecs factor_name='Writing' /
+&allskillspecs skill_specs=.TRUE. /
+&skillspecs /
+&skillspecs /
+&skillspecs /
+&skillspecs rasch_model=.TRUE. /
+&allitemspecs  item_specs=.TRUE. /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3/
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3/
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3/
+&itemspecs skill_num=3 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=3 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=3 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=3 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=3 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=3 int_dim=2 num_cat_obs=4 special_item_int=.TRUE./
+&itemspecs skill_num=4 int_dim=2 num_cat_obs=10  special_item_int=.TRUE. special_item_slope=.TRUE./
+&itemspecs skill_num=4 int_dim=2 num_cat_obs=10  special_item_int=.TRUE. special_item_slope=.TRUE./
+
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-3 -1 1 3 1 -1 -1 1 /
+&intspecs int_array=-5.4 -3.4 -2.4 -1.4 -0.4 0.6 1.6 2.6 3.6 4.6 19.92 2.32 -3.48 -7.28 -9.08 -8.88 -6.68 -2.48 3.72 11.92 /
+
+&slopespecs slope_array=-5.4 -3.4 -2.4 -1.4 -0.4 0.6 1.6 2.6 3.6 4.6 /
+&intspecs int_array=5.4 -3.4 -2.4 -1.4 -0.4 0.6 1.6 2.6 3.6 4.6 19.92 2.32 -3.48 -7.28 -9.08 -8.88 -6.68 -2.48 3.72 11.92 /
+
+&slopespecs slope_array=-5.4 -3.4 -2.4 -1.4 -0.4 0.6 1.6 2.6 3.6 4.6 /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output /
+

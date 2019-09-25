@@ -1,0 +1,25 @@
+&runtitle title='Listening_Test:1PL_Model' /
+&numberunits count=2/
+&files filename='listeningr.csv' /
+
+&files filename='listeningrwtitem.csv' /
+&units unitwtitem=11/
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec /
+&dimension /
+&quadsize /
+
+&allfactorspecs factor_specs=.TRUE.  /
+
+&factorspecs factor_name='Listening' /
+&allskillspecs rasch_model=.TRUE./
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output   printwtitemres=T /
+&numberweights numweights=1 /
+&readweight weightname='Listening_sum' /

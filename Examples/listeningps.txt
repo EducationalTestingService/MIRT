@@ -1,0 +1,21 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits /
+&files filename='listeningps.csv' /
+&units /
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1,T1,i2,1x,i2)' stratify=.TRUE. usepsu=.TRUE./
+&paramspec /
+&dimension /
+&quadsize /
+
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  /

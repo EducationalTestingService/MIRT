@@ -1,0 +1,25 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits count=5/
+&files filename='listening9.csv' /
+&files filename='listeningbeta.csv' /
+&files filename='listeningbetacov.csv'/
+&files filename='listeningbetacov_louis.csv'/
+&files filename='listeningbetacov_sandwich.csv'/
+&units unitbeta=11 unitbetacov=12 unitbetacov_louis=13 unitbetacov_sandwich=14/ 
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+fileformat='(21x,34i1)' /
+&paramspec /
+&dimension   /
+&quadsize /
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printbeta=T printbetacov=T printbetacov_louis=T printbetacov_sandwich=T /
+

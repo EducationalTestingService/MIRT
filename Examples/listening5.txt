@@ -1,0 +1,27 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits count=2/
+&files filename='listening5.csv' /
+&files filename='listeningeapwt5.csv' /
+&units uniteapwt=11/ 
+&dataspec nitems=34 filename='FORM1ANOX.TXT' 
+fileformat='(21x,34i1)' /
+&paramspec /
+&dimension   /
+&quadsize /
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printrelwt=T printeapwt=T /
+&eapoutput dimwtsum=2/
+&weightedsum weight_name='Listening_sum_half1' weight_sum=0 1 0 1 0 1 0 1
+0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 34*0/
+&weightedsum weight_name='Listening_sum_half2' 
+weight_sum=34*0 0 1 0 1 0 1 0 1
+0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 /

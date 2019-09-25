@@ -1,0 +1,22 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits /
+&files filename='listeningacc.csv' /
+&units /
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec tol=0.00000001 /
+&dimension /
+&quadsize dimsize=15/
+
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  /
+
