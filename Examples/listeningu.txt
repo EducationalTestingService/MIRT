@@ -1,0 +1,28 @@
+&runtitle title='Listening_Test:2PL_Model:Multinomial' /
+&numberunits /
+&files filename='listeningu.csv' /
+&units /
+&dataspec nitems=34  filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec /
+&dimension   dimlatin=2/
+
+&quadsize grid=.FALSE. normal=.FALSE. nquad=3 /
+&quadrature vecpoints= -1 0 0 0 0 1 /
+
+&allfactorspecs  factor_specs=.TRUE. nolin=.FALSE. noquad=.TRUE. /
+&factorspecs factor_name='L1'/
+&factorspecs factor_name='L2'/
+
+
+&allskillspecs skill_specs=.TRUE./
+&skillspecs skill_name='Listening'/
+&allitemspecs /
+
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  /
+

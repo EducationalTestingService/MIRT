@@ -1,0 +1,26 @@
+&runtitle title='Speaking_Test:GPCM Model' /
+&numberunits /
+&files filename='speaking.csv'/
+&units /
+&dataspec nitems=6 filename='FORM1ANOX.TXT' 
+fileformat='(99x,6i1)' recode=.TRUE./
+&numberrecodes numbercodes=6*4 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&paramspec /
+&dimension /
+&quadsize /
+&allfactorspecs factor_specs=.TRUE./
+&factorspecs factor_name='Speaking' /
+&allskillspecs /
+&allitemspecs num_cat_obs=4/
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printmargin=.TRUE./

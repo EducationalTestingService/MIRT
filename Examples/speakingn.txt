@@ -1,0 +1,30 @@
+&runtitle title='Speaking_Test:Null_Model' /
+&numberunits /
+&files filename='speakingn.csv'/
+&units /
+&dataspec nitems=6 filename='FORM1ANOX.TXT' 
+fileformat='(99x,6i1)' recode=.TRUE./
+&numberrecodes numbercodes=6*4 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&recodetable recode_tab=1 0 2 1 3 2 4 3 /
+&paramspec /
+&dimension /
+&quadsize dimsize=2 normal=.FALSE. even=.TRUE. pspread=2.0 /
+&allfactorspecs factor_specs=.TRUE. noquad=.TRUE. /
+&factorspecs factor_name='Speaking' /
+&allskillspecs /
+&allitemspecs num_cat_obs=4/
+&predictorname /
+&designparameters dimdesign=3 specialtrans=.TRUE./
+&designspecs param_name='cat0' 'cat1' 'cat2' offsettran=26*0
+transition=1 2*0 1 2*0 1 2*0 1 2*0 1 2*0 1 10*0
+0 1 2*0 1 2*0 1 2*0 1 2*0 1 2*0 1 9*0
+2*0 1 2*0 1 2*0 1 2*0 1 2*0 1 2*0 1 8*0/
+&readgamma /
+&inputinformation /
+&printprogress /
+&output /

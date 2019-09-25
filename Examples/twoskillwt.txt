@@ -1,0 +1,100 @@
+&runtitle title='Two_Skills:GPCM' /
+&numberunits count=2/
+&files filename='twoskillwt.csv'/
+&files filename='twoskillmarginwtsum.csv'/
+&units unitmarginwtsum=11/
+&dataspec nitems=76 filename='FORM1ANOX.TXT' 
+fileformat='(21x,34i1,1x,42i1)'  /
+&paramspec /
+&dimension dimlatin=2 dimlatout=2 /
+&quadsize /
+&allfactorspecs factor_specs=.TRUE. /
+&factorspecs factor_name='Listening' /
+&factorspecs factor_name='Reading' /
+&allskillspecs  /
+&allitemspecs  item_specs=.TRUE. /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=1 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3/
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3/
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 /
+&itemspecs skill_num=2 num_cat_obs=3/
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printmarginwtsumres=T/
+&numberweights numweights=2 /
+&readweight /
+&readweight /

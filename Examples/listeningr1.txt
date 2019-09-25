@@ -1,0 +1,21 @@
+&runtitle title='Listening_Test:1PL_Model' /
+&numberunits /
+&files filename='listeningr1.csv' /
+&units /
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec /
+&dimension /
+&quadsize /
+
+&allfactorspecs factor_specs=.TRUE. fix_diag=.FALSE. /
+
+&factorspecs factor_name='Listening' /
+&allskillspecs rasch_slope_1=.TRUE./
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output  /

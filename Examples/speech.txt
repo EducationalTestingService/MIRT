@@ -1,0 +1,19 @@
+&runtitle title="TOEFL Form A: GPCM Model: Speech" /
+&numberunits /
+&files filename="Speech1A.csv"/
+&units /
+&dataspec nitems=6 filename="form1anox.txt" 
+fileformat="(99x,6i1)" /
+
+&paramspec /
+&dimension /
+&quadsize /
+&allfactorspecs /
+&allskillspecs /
+&allitemspecs num_cat_obs=5/
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output /

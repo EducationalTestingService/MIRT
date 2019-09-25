@@ -1,0 +1,22 @@
+&runtitle title='Speaking_Test:GPCM Model' /
+&numberunits /
+&files filename='writing8r.csv'/
+&units /
+&dataspec nitems=2 filename='FORM1ANOX.TXT' 
+fileformat='(106x,2i2)' recode=.TRUE./
+&numberrecodes numbercodes=2*10 /
+&recodetable recode_tab=1 0 2 0 3 0 4 1 5 2 6 3 7 4 8 5 9 6 10 7 /
+&recodetable recode_tab=1 0 2 0 3 0 4 1 5 2 6 3 7 4 8 5 9 6 10 7 /
+&paramspec /
+&dimension /
+&quadsize /
+&allfactorspecs factor_specs=.TRUE./
+&factorspecs factor_name='Writing' /
+&allskillspecs rasch_model=T/
+&allitemspecs num_cat_obs=8 /
+&predictorname /
+&designparameters /
+&readgamma /
+&inputinformation /
+&printprogress /
+&output printmargin=.TRUE./

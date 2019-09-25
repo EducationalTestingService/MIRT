@@ -1,0 +1,22 @@
+&runtitle title='Listening_Test:2PL_Model' /
+&numberunits /
+&files filename='listeningst1.csv' /
+&units /
+&dataspec nitems=34 filename='FORM1ANOX.TXT'
+ fileformat='(21x,34i1)' /
+&paramspec tol=0.0000001 twostages=.FALSE./
+&dimension /
+&quadsize /
+
+&allfactorspecs factor_specs=T/
+
+&factorspecs factor_name='Listening' /
+&allskillspecs /
+&allitemspecs /
+&predictorname /
+&designparameters /
+&readgamma gammafile='listening.csv' usegammafile=.TRUE. skip=29 /
+&inputinformation /
+&printprogress /
+&output  /
+
