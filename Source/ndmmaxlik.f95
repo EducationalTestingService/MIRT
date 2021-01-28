@@ -567,6 +567,8 @@ do it=0,maxit
 
 	do obs=1,nobs			
 		
+		if(obsweight(obs)<=0.0_8) cycle
+		
 ! Observation obs.
 		resp=dat(:,obs)
 
@@ -817,7 +819,9 @@ do it=0,maxit
 		prob=0.0_8
 !	New log likelihood.
 		do obs=1,nobs
-			
+		
+			if(obsweight(obs)<=0.0_8) cycle
+					
 ! Observation obs.
 			resp=dat(:,obs)
 			
