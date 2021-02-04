@@ -28,3 +28,21 @@ The source code can be compiled using gfortran. On Windows, Mingw-w64 also needs
 gfortran *.f95 -O3 -ffree-line-length-none -o mirt.exe
 
 Fresh compilations need to be done twice due to module files.
+
+## Installing MIRT on Windows
+
+Since the MIRT binary for Windows is created with gfortran and Mingw-w64, the latter also needs to be installed. The following steps are needed:
+1. Make sure you have administrator rights on your computer.
+2. Copy the MIRT binary to a directory (e.g., C:\Program Files\MIRT).
+3. Dowload mingw-w64-install.exe from http://mingw-w64.org/.
+4. Run the installer and make sure to specify the correct architecture. This will be "i686" for a 32-bit system, or "x86_64" for a 64-bit system.
+5. Once installation is completed, you need to set the path for Mingw-w64: Right click on the "My Computer" or "This PC" icon on your desktop, select "Properties", click "Advanced system settings", and click "Environment variables". In the "Environment Variables" window, select "Path" and then click on "Edit". Add the directory of the relevant Mingw‐w64 libraries. If you installed the 32-bit version, these will be in: C:\Program Files (x86)\mingw‐w64\i686‐8.1.0‐posix‐dwarf‐rt_v6‐rev0\mingw32\binb. If you installed the 64-bit version, these will be in: C:\Program Files\mingw‐w64\x86_64‐8.1.0‐posix‐seh‐rt_v6‐rev0\mingw64\bin.
+6. Set the path for MIRT: Add the directory of the MIRT binary in the same way as above.
+7. Verify that the path variable has been set correctly by going to the command prompt (Search Windows > cmd > Command Prompt), and type "path". Check that the directories appear correctly.
+8. You are now ready to run MIRT from any directory. 
+
+
+
+
+
+
