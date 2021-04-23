@@ -40,7 +40,8 @@ if(custom)then
 	allocate(lin_tran(size(lintran,1),size(lintran,2)),stat=io)
 	if(io/=0) stop "Allocation of linear transformation failed."
 	lin_tran=lintran
-		lintran=lin_tran
+    call readlintran(lin_tran)
+    lintran=lin_tran
 end if
 return
 end subroutine getlintran
